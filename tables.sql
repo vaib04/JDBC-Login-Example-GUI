@@ -1,0 +1,11 @@
+create database VB1308_AJP_Lab2;
+use VB1308_AJP_Lab2;
+create table credentials (username varchar(20) primary key, password varchar(20) not null, job varchar(20) not null, city varchar(20) not null);
+insert into credentials values ("vaibhav","123","student","Bangalore");
+insert into credentials values ("aaa","111","student","Delhi");
+insert into credentials values ("bbb","222","student","Mumbai");
+insert into credentials values ("ccc","333","teacher","Kolkata");
+insert into credentials values ("ddd","444","teacher","Hyderabad");
+insert into credentials values ("manav","123","student","Manipal");
+insert into credentials values ("pali","321","student","Lucknow");
+insert into credentials values ("xyz","111","teacher","Chandigarh");
